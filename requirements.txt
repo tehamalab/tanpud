@@ -1,0 +1,4 @@
+Mezzanine==4.3.0
+psycopg2 --no-binary psycopg2
+python-dotenv
+django-modeltranslation

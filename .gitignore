@@ -1,0 +1,16 @@
+*.pyc
+*.pyo
+*.db
+.DS_Store
+.coverage
+local_settings.py
+/static/media
+/media_root
+/static_root
+
+# generic files to ignore
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
