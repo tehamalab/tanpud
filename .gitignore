@@ -1,12 +1,18 @@
 *.pyc
 *.pyo
-*.db
-.DS_Store
 .coverage
-local_settings.py
+
+# local data
+*.db
+
+# static
 /static/media
 /media_root
 /static_root
+
+# local settings
+local_settings.py
+.env
 
 # generic files to ignore
 *~
