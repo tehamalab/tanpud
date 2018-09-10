@@ -170,7 +170,7 @@ DATABASES = {
         'ENGINE': os.environ.get('DATABASE_ENGINE', 'django.db.backends.postgresql'),
         'NAME': os.environ.get('DATABASE_NAME', 'tanpud'),
         'USER': os.environ.get('DATABASE_USER', 'tanpud'),
-        'PASSWORD': os.environ.get('DATABASE_PASSWORD', 't'),
+        'PASSWORD': os.environ.get('DATABASE_PASSWORD', 'tanpud'),
         'HOST': os.environ.get('DATABASE_HOST', 'localhost'),
         'PORT': os.environ.get('DATABASE_PORT', '5432'),
         'CONN_MAX_AGE': int(os.environ.get('DATABASE_CONN_MAX_AGE', 0)),
