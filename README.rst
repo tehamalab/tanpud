@@ -73,9 +73,9 @@ For example change your database setting to reflet your existing setup and enabl
 
 Local project setting which are not supposed to be tracked by git settings modified by
 
- - using system environment variables
- - using environment variables written in ``.env`` file at the project root
- - By creating a local settings file at the project root ``tanpud/local_settings.py``
+- using system environment variables
+- using environment variables written in ``.env`` file at the project root
+- By creating a local settings file at the project root ``tanpud/local_settings.py``
 
 
 Otherwise you can edit the ``tanpud/settings.py`` file directly.
