@@ -40,21 +40,21 @@ Project setup
 
 Download the source code
 
-.. code-block:: console
+.. code:: bash
 
     git clone https://github.com/tehamalab/tanpud.git
 
 
 Go to project root
 
-.. code-block:: console
+.. code:: bash
 
     cd tanpud
 
 
 make sure your python virtual environment is active then use pip to install project requirements.
 
-.. code-block:: console
+.. code:: bash
 
     pip install -r requirements.txt
 
@@ -62,7 +62,7 @@ make sure your python virtual environment is active then use pip to install proj
 Change your project settings according to your requirements.
 For example change your database setting to reflet your existing setup and enable debug mode.
 
-.. code-block:: console
+.. code:: bash
 
     # .env file
 
@@ -83,7 +83,7 @@ For more information on available settings please consult Django and Mezzanine d
 
 Check if things are ok
 
-.. code-block:: console
+.. code:: bash
 
     python manage.py check
 
@@ -97,7 +97,7 @@ Create database tables
 
 Create a superuser for administrative access
 
-.. code-block:: console
+.. code:: bash
 
     python manage.py createsuperuser
 
@@ -113,7 +113,7 @@ You shouldn't be using this server on production sites.
 
 To start the development server go to your project root directory run
 
-.. code-block:: console
+.. code:: bash
 
     python manage.py runserver
 
