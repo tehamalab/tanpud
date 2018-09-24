@@ -32,7 +32,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
+	font-weight: 900;
 }
 
 p { 
@@ -51,7 +51,8 @@ img {
 	max-width: 100%;
 }
 
-a { 
+a {
+    color: #97a739;
 	padding: 0;
 	margin: 0;
 	text-decoration: none; 
@@ -86,7 +87,7 @@ a:focus {
 	BOOTSTRAP MODIFICATIONS & TWEAKS
 ################################################################# */
 .navbar {
-	min-height: 70px;
+	min-height: 80px;
 	padding-top: 10px;
 	margin-bottom: 0px;
 }
@@ -94,6 +95,13 @@ a:focus {
 .navbar-brand {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 900;
+    height: 80px;
+    padding: 0;
+}
+
+.navbar-brand > img {
+  height: 100%;
+  width: auto;
 }
 
 .navbar-header .navbar-brand {
@@ -117,7 +125,7 @@ a:focus {
 
 .navbar-default {
 	background-color: white;
-	border-color: #384452;
+	border-color: #ffe25d;
 }
 
 .dropdown-menu {
@@ -142,8 +150,8 @@ a:focus {
 .btn-theme.active,
 .open .dropdown-toggle.btn-theme {
   color: #fff;
-  background-color: #00b3fe;
-  border-color: #00b3fe;
+  background-color: #97a739;
+  border-color: #97a739;
 }
 
 .dmbutton:hover,
@@ -180,7 +188,7 @@ a:focus {
 }
 
 .mtb {
-	margin-top: 80px;
+	margin-top: 20px;
 	margin-bottom: 80px;
 }
 
@@ -205,20 +213,19 @@ a:focus {
 ################################################################# */
 
 #headerwrap {
-	background-color: #00b3fe;
-	min-height: 550px;
-	padding-top: 100px;
+	background-color: #feed21;
+	min-height: 350px;
+	padding-top: 150px;
 	padding-bottom: 0px;
 	text-align: center;
+    color: #726010;
 }
 
 #headerwrap h3, h5 {
-	color: white;
-	font-weight: 400;
+	font-weight: 700;
 }
 
 #headerwrap h1 {
-	color: white;
 	margin-bottom: 25px;
 }
 
@@ -233,7 +240,7 @@ a:focus {
 }
 
 #service i {
-	color: #00b3fe;
+	color: #f99d19;
 	font-size: 60px;
 	padding: 15px;
 }
@@ -362,16 +369,16 @@ a:focus {
 ################################################################# */
 /* General Tweaks */
 
-#blue {
-	background: #00b3fe;
+.title-wrapper {
+	background: #feed21;
 	margin-top: 60px;
-	margin-bottom: 60px;
+	margin-bottom: 10px;
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
 
-#blue h3 {
-	color: white;
+.title-wrapper h3 {
+	color: #726010;
 	margin-left: 15px;
 }
 

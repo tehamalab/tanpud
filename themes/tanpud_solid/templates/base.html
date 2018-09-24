@@ -69,8 +69,9 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
     </button>
-    {% if settings.SITE_TITLE %}<a class="navbar-brand" href="/">{{ settings.SITE_TITLE }}</a>{% endif %}
-    {% if settings.SITE_TAGLINE %}<p class="navbar-text visible-lg">{{ settings.SITE_TAGLINE }}</p>{% endif %}
+    <a class="navbar-brand" href="/">
+        <img class="img-responsive" src="{% static 'img/logo.png' %}" alt="{{ settings.SITE_TITLE }}">
+    </a>
 </div>
 <div class="navbar-collapse collapse navbar-right">
     
@@ -79,7 +80,7 @@
 </div>
 </div>
 {% block title_wrapper%}
-<div id="blue">
+<div class="title-wrapper">
 	    <div class="container">
 			<div class="row">
 				<h3>{% block title %}{% endblock %}</h3>
@@ -143,44 +144,45 @@
 {% endblock %}
 
 <div id="footerwrap">
-<div class="container">
-	<div class="row">
-	<div class="col-lg-6">
-		 		{% page_menu "pages/menus/footer.html" %}	
-	</div>
-	<div class="col-lg-3">
-		 			<h4>Social Links</h4>
-		 			<div class="hline-w"></div>
-		 			<p>
-		 				<a href="#"><i class="fa fa-dribbble"></i></a>
-		 				<a href="#"><i class="fa fa-facebook"></i></a>
-		 				<a href="#"><i class="fa fa-twitter"></i></a>
-		 				<a href="#"><i class="fa fa-instagram"></i></a>
-		 				<a href="#"><i class="fa fa-tumblr"></i></a>
-		 			</p>
-		 		</div>
-		 		<div class="col-lg-3">
-		 			<h4>Our Bunker</h4>
-		 			<div class="hline-w"></div>
-		 			<p>
-		 				Some Ave, 987,<br/>
-		 				23890, New York,<br/>
-		 				United States.<br/>
-		 			</p>
-		 		</div>
-		 	
-		</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                {% page_menu "pages/menus/footer.html" %}	
+            </div>
 
-<div class="row">
-<p class="site-info text-center">
-    {% trans "Template by" %}
-    <a href="http://www.blacktie.co">Blacktie</a>
-    {% trans "Mezzanine theme by" %}
-    <a href="http://thecodinghouse.in">CodingHouse</a>
-    
-</p>
-</div>
-</div>
+            <div class="col-lg-3">
+                <h4>{% trans "Social Links" %}</h4>
+                <div class="hline-w"></div>
+                <p>
+                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-tumblr"></i></a>
+                </p>
+            </div>
+
+            <div class="col-lg-3">
+                <h4>{% trans "Contact Us" %}</h4>
+                <div class="hline-w"></div>
+                <p>
+                    <strong>TaNPUD</strong><br/>
+                    Hekima Street, Tandika Maguruwe,<br/>
+                    P.O. Box 105948,
+                    Dar es Salaam,<br/>
+                    Tanzania.<br/>
+                </p>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <p class="site-info text-center">
+                <strong>© 2018 TaNPUD</strong>
+            </p>
+        </div>
+
+    </div>
 </div>
 <!-- Core JavaScript Files -->
   
