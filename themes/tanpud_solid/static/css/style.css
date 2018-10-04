@@ -52,7 +52,7 @@ img {
 }
 
 a {
-    color: #97a739;
+    color: #54b8fe;
 	padding: 0;
 	margin: 0;
 	text-decoration: none; 
@@ -150,8 +150,6 @@ a:focus {
 .btn-theme.active,
 .open .dropdown-toggle.btn-theme {
   color: #fff;
-  background-color: #97a739;
-  border-color: #97a739;
 }
 
 .dmbutton:hover,
@@ -366,6 +364,10 @@ a:focus {
 
 .footer-lang {
     margin-left: 40px;
+}
+
+.nav-footer a{
+    color: #bfc9d3;
 }
 
 /*	################################################################
