@@ -1,0 +1,384 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-09 22:20+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: templates/base.html:67
+msgid "Toggle Navigation"
+msgstr ""
+
+#: templates/base.html:157
+msgid "Social Links"
+msgstr "Mitandao ya Kijamii"
+
+#: templates/base.html:169
+msgid "Contact Us"
+msgstr "Wasiliana Nasi"
+
+#: templates/base.html:172
+msgid ""
+"\n"
+"                    <strong>TaNPUD</strong><br/>\n"
+"                    Hekima Street, Tandika Maguruwe,<br/>\n"
+"                    P.O. Box 105948,\n"
+"                    Dar es Salaam,<br/>\n"
+"                    Tanzania.<br/>\n"
+"                    "
+msgstr ""
+"\n"
+"                    <strong>TaNPUD</strong><br/>\n"
+"                    Hekima Street, Tandika Maguruwe,<br/>\n"
+"                    SLP 105948,\n"
+"                    Dar es Salaam,<br/>\n"
+"                    Tanzania.<br/>\n"
+"                    "
+
+#: templates/blog/blog_post_detail.html:53
+#: templates/blog/blog_post_list.html:153
+#: templates/blog/includes/filter_panel.html:67
+msgid "Tags"
+msgstr ""
+
+#: templates/blog/blog_post_detail.html:72
+msgid "Share on Twitter"
+msgstr ""
+
+#: templates/blog/blog_post_detail.html:73
+msgid "Share on Facebook"
+msgstr ""
+
+#: templates/blog/blog_post_detail.html:98
+msgid "Related posts"
+msgstr ""
+
+#: templates/blog/blog_post_list.html:4 templates/blog/blog_post_list.html:22
+msgid "Blog"
+msgstr "Blogu"
+
+#: templates/blog/blog_post_list.html:31
+msgid "Tag:"
+msgstr ""
+
+#: templates/blog/blog_post_list.html:33
+msgid "Category:"
+msgstr ""
+
+#: templates/blog/blog_post_list.html:37
+msgid "Author:"
+msgstr ""
+
+#: templates/blog/blog_post_list.html:53
+msgid "Viewing posts tagged"
+msgstr ""
+
+#: templates/blog/blog_post_list.html:55
+msgid "Viewing posts for the category"
+msgstr ""
+
+#: templates/blog/blog_post_list.html:57
+msgid "Viewing posts from"
+msgstr ""
+
+#: templates/blog/blog_post_list.html:60
+msgid "Viewing posts by"
+msgstr ""
+
+#: templates/blog/blog_post_list.html:99
+msgid "Posted by"
+msgstr ""
+
+#: templates/blog/blog_post_list.html:108
+msgid "in"
+msgstr ""
+
+#: templates/blog/blog_post_list.html:118
+#: templates/generic/includes/comment.html:22
+#: templates/generic/includes/comment.html:59 templates/twitter/tweets.html:19
+#, python-format
+msgid "%(sometime)s ago"
+msgstr ""
+
+#: templates/blog/blog_post_list.html:127
+#: templates/generic/includes/comments.html:3
+msgid "Comments"
+msgstr ""
+
+#: templates/blog/blog_post_list.html:131
+#, python-format
+msgid "%(comments_count)s comment"
+msgid_plural "%(comments_count)s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/blog/blog_post_list.html:162
+msgid "[read more]"
+msgstr ""
+
+#: templates/blog/includes/filter_panel.html:6
+msgid "Recent Posts"
+msgstr ""
+
+#: templates/blog/includes/filter_panel.html:35
+msgid "Archive"
+msgstr ""
+
+#: templates/blog/includes/filter_panel.html:52
+msgid "Categories"
+msgstr ""
+
+#: templates/blog/includes/filter_panel.html:84
+msgid "Authors"
+msgstr ""
+
+#: templates/blog/includes/filter_panel.html:97
+msgid "Feeds"
+msgstr ""
+
+#: templates/blog/includes/filter_panel.html:99
+#: templates/blog/includes/filter_panel.html:103
+#: templates/blog/includes/filter_panel.html:107
+#: templates/blog/includes/filter_panel.html:111
+msgid "RSS"
+msgstr ""
+
+#: templates/blog/includes/filter_panel.html:100
+#: templates/blog/includes/filter_panel.html:104
+#: templates/blog/includes/filter_panel.html:108
+#: templates/blog/includes/filter_panel.html:112
+msgid "Atom"
+msgstr ""
+
+#: templates/email/comment_notification.html:6
+msgid "A new comment has been posted on"
+msgstr ""
+
+#: templates/email/comment_notification.html:10
+#, python-format
+msgid ""
+"\n"
+"    At %(submit_date)s %(user_name)s wrote:\n"
+"    "
+msgstr ""
+
+#: templates/email/comment_notification.txt:7
+#, python-format
+msgid ""
+"\n"
+"At %(submit_date)s %(user_name)s wrote:\n"
+msgstr ""
+
+#: templates/errors/404.html:6 templates/errors/404.html:10
+#: templates/errors/404.html:15
+msgid "Page not found"
+msgstr ""
+
+#: templates/errors/404.html:16
+msgid "The page you requested does not exist."
+msgstr ""
+
+#: templates/errors/500.html:6 templates/errors/500.html:10
+#: templates/errors/500.html:15
+msgid "Error"
+msgstr ""
+
+#: templates/errors/500.html:16
+msgid "Sorry, an error occurred."
+msgstr ""
+
+#: templates/generic/includes/comment.html:30
+msgid "Link"
+msgstr ""
+
+#: templates/generic/includes/comment.html:33
+#: templates/generic/includes/comment.html:49
+msgid "Reply"
+msgstr ""
+
+#: templates/generic/includes/comment.html:55
+msgid "Comment deleted"
+msgstr ""
+
+#: templates/generic/includes/comment.html:57
+msgid "Comment awaiting approval"
+msgstr ""
+
+#: templates/generic/includes/comment.html:71
+msgid "There are currently no comments"
+msgstr ""
+
+#: templates/generic/includes/comments.html:17
+msgid "New Comment"
+msgstr ""
+
+#: templates/generic/includes/comments.html:25
+msgid "Comment"
+msgstr ""
+
+#: templates/generic/includes/rating.html:5
+msgid "Current rating"
+msgstr ""
+
+#: templates/generic/includes/rating.html:7
+msgid "Currently unrated"
+msgstr ""
+
+#: templates/generic/includes/rating.html:17
+msgid "Rate"
+msgstr ""
+
+#: templates/includes/editable_form.html:16
+msgid "Save"
+msgstr ""
+
+#: templates/includes/editable_form.html:17
+msgid "Cancel"
+msgstr ""
+
+#: templates/includes/editable_form.html:25
+msgid "Edit"
+msgstr ""
+
+#: templates/includes/editable_toolbar.html:8
+msgid "Admin"
+msgstr ""
+
+#: templates/includes/editable_toolbar.html:9
+msgid "Log out"
+msgstr ""
+
+#: templates/includes/form_errors.html:8
+msgid "Please correct the errors below."
+msgstr ""
+
+#: templates/includes/pagination.html:7
+msgid "Page"
+msgstr ""
+
+#: templates/includes/pagination.html:7
+msgid "of"
+msgstr ""
+
+#: templates/includes/search_form.html:5
+msgid "Search"
+msgstr ""
+
+#: templates/includes/search_form.html:14
+msgid "Everything"
+msgstr ""
+
+#: templates/includes/search_form.html:26
+msgid "Go"
+msgstr ""
+
+#: templates/index.html:4 templates/pages/menus/breadcrumb.html:4
+#: templates/pages/menus/breadcrumb.html:10
+#: templates/pages/menus/dropdown1.html:10
+#: templates/pages/menus/footer_tree.html:11
+#: templates/pages/menus/mobile.html:10 templates/pages/menus/primary.html:8
+#: templates/pages/menus/tree.html:9 templates/search_results.html:13
+msgid "Home"
+msgstr "Mwanzo"
+
+#: templates/index.html:25
+msgid "Support, Don't Punish"
+msgstr ""
+
+#: templates/index.html:43
+msgid ""
+"TaNPUD was found on 2011 with only few people who were drug users with an "
+"aim of advocating for their rights."
+msgstr ""
+"TaNPUD ilianzishwa mwaka 2011 na kikundi kidogo cha watumiaji wa dawa za "
+"kulevya kikiwa na lengo la kutetea haki zao na wenzao."
+
+#: templates/index.html:46
+msgid ""
+"The organization has now grown up into being a National Network for people "
+"who use drugs in Tanzania."
+msgstr ""
+"Taasisi imekuwa kufikia na kuwa mtandao wa kitaifa kwa ajili ya watu "
+"wanaotumia madawa ya kulevya Tanzania."
+
+#: templates/index.html:48 templates/index.html:59 templates/index.html:70
+msgid "More Info"
+msgstr "Taarifa Zaidi"
+
+#: templates/index.html:52
+msgid "Advocacy"
+msgstr ""
+
+#: templates/index.html:54
+msgid ""
+"The main focus of TaNPUD’s work is advocating for the rights to health and "
+"legal affairs of people who use drugs."
+msgstr ""
+
+#: templates/index.html:57
+msgid ""
+"TaNPUD hase been rising the voices of drug users in the national planning "
+"and decision making."
+msgstr ""
+
+#: templates/index.html:63
+msgid "Support & Empowerment"
+msgstr ""
+
+#: templates/index.html:65
+msgid ""
+"TaNPUD aims to empower people who use drugs to participate in community "
+"development and become more involved in planning and decision making that "
+"affects them."
+msgstr ""
+
+#: templates/index.html:68
+msgid ""
+"TaNPUD is here to support drug users in knowing their rights and getting the "
+"right to be treated well."
+msgstr ""
+
+#: templates/pages/menus/admin.html:31
+msgid "Add"
+msgstr ""
+
+#: templates/search_results.html:5 templates/search_results.html:6
+#: templates/search_results.html:15
+msgid "Search Results"
+msgstr ""
+
+#: templates/search_results.html:22
+#, python-format
+msgid ""
+"\n"
+"No results were found in %(search_type)s matching your query: %(query)s\n"
+msgstr ""
+
+#: templates/search_results.html:26
+#, python-format
+msgid ""
+"\n"
+"Showing %(start)s to %(end)s of %(total)s results in %(search_type)s "
+"matching your query: %(query)s\n"
+msgstr ""
+
+#: templates/search_results.html:37
+msgid "read more"
+msgstr "soma zaidi"
+
+#: templates/twitter/tweets.html:7
+msgid "Recent Tweets"
+msgstr ""
